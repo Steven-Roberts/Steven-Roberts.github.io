@@ -16,3 +16,9 @@ gems:
 sass:
     style: compressed
     sass_dir: ./_scss
+
+exclude:
+    - Gemfile
+    - LICENSE.md
+    - README.md
+    - "*.xcf"
