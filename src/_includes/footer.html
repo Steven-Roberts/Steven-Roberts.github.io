@@ -1,0 +1,15 @@
+<footer class="page-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                {% include about-site.html %}
+            </div>
+            <div class="col l4 offset-l2 s12">
+                {% include links.html %}
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright center">
+        © {{ 'now' | date: "%Y" }} | {{ site.title }}
+    </div>
+</footer>

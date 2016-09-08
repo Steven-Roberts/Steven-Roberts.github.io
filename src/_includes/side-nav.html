@@ -1,0 +1,24 @@
+<ul id="slide-out" class="side-nav fixed">
+    <li>
+        <div class="userView">
+            <img class="background" src="/img/user-background.jpg">
+            <a href="/"><img class="circle" src="{{ site.github.owner_gravatar_url }}"></a>
+            <a href="/"><span class="name">{{ site.title }}</span></a>
+            <a href="/"><span class="email">{% include email.html %}</span></a>
+        </div>
+    </li>
+
+  {% assign sortedPages = site.pages | sort: 'weight' | reverse %}
+  {% for menuPage in sortedPages %}
+      {% if menuPage.weight %}
+          <li {% if page.url == menuPage.url %}class="active"{% endif %}>
+              <a href="{{ menuPage.url }}">
+                  {% if menuPage.icon %}
+                      <i class="material-icons">{{ menuPage.icon }}</i>
+                  {% endif %}
+                  {{ menuPage.title }}
+              </a>
+          </li>
+      {% endif %}
+  {% endfor %}
+</ul>

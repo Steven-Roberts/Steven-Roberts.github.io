@@ -1,0 +1,18 @@
+title: Steven Roberts
+repository: Steven-Roberts/Steven-Roberts.github.io
+source: src
+destination: _gh_pages
+email:
+    username: steven94
+    domain: vt.edu
+
+permalink: pretty
+
+gems:
+    - jekyll-github-metadata
+    - jekyll-sitemap
+    - jekyll-seo-tag
+    - jemoji
+
+sass:
+    style: compressed
