@@ -34,3 +34,7 @@ header, main, footer {
 .email-domain::before {
     content: '@';
 }
+
+.card ul li {
+    margin-bottom: 1em;
+}
