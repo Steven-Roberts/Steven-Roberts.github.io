@@ -9,9 +9,9 @@ layout: base
     <div class="row">
         {% for card in page.cards %}
             <div class="col {% if page.cols %}{{ page.cols }}{% else %}s12{% endif %}">
-                <div class="card">
+                <div class="card {% if page.orientation == "horizontal" %}horizontal{% endif %}">
                     {% if card.img %}
-                        <div class="card-image waves-effect waves-block waves-light">
+                        <div class="card-image {% if card.description %}waves-effect waves-block waves-light{% endif %}">
                             <img class="{% if card.description %}activator{% endif %}" src="{{ card.img }}">
                         </div>
                     {% endif %}
