@@ -12,13 +12,15 @@ layout: base
                 <div class="card">
                     {% if card.img %}
                         <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="{{ card.img }}">
+                            <img class="{% if card.description %}activator{% endif %}" src="{{ card.img }}">
                         </div>
                     {% endif %}
                     <div class="card-content">
-                        <span class="card-title activator">
+                        <span class="card-title {% if card.description %}activator{% endif %}">
                             {{ card.title }}
-                            <i class="material-icons right">more_vert</i>
+                            {% if card.description %}
+                                <i class="material-icons right">more_vert</i>
+                            {% endif %}
                         </span>
                         <p class="grey-text text-darken-1">
                             {{ card.subtitle }}
@@ -26,13 +28,15 @@ layout: base
                             {{ card.date }}
                         </p>
                     </div>
-                    <div class="card-reveal">
-                        <span class="card-title">
-                            {{ card.title }}
-                            <i class="material-icons right">close</i>
-                        </span>
-                        {{ card.description | markdownify }}
-                    </div>
+                    {% if card.description %}
+                        <div class="card-reveal">
+                            <span class="card-title">
+                                {{ card.title }}
+                                <i class="material-icons right">close</i>
+                            </span>
+                            {{ card.description | markdownify }}
+                        </div>
+                    {% endif %}
                 </div>
             </div>
         {% endfor %}
