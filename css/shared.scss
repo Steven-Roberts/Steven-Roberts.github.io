@@ -41,3 +41,7 @@ header, main, footer {
 .card ul li {
     margin-bottom: 1em;
 }
+
+.collapsible .collapsible-body > * {
+    @extend p;
+}

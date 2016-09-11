@@ -1,0 +1,14 @@
+<div class="row">
+    {% for variant_hash in category.variants %}
+        {% for variant in variant_hash %}
+            <div class="col s12 m6">
+                {% assign name = variant[0] %}
+                {% assign knowledge = variant[1] %}
+                {{ name }}
+                <div class="progress">
+                    <div class="determinate" style="width: {{ knowledge }}%"></div>
+                </div>
+            </div>
+        {% endfor %}
+    {% endfor %}
+</div>
