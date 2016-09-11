@@ -8,7 +8,7 @@ layout: base
 
     <div class="row">
         {% for card in page.cards %}
-            <div class="col s12 m6">
+            <div class="col {% if page.cols %}{{ page.cols }}{% else %}s12{% endif %}">
                 <div class="card">
                     {% if card.img %}
                         <div class="card-image waves-effect waves-block waves-light">
