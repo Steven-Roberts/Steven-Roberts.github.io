@@ -25,6 +25,11 @@ header, main, footer {
       }
 }
 
+#message-button-container {
+    bottom: 45px;
+    right: 24px;
+}
+
 .brand-logo {
     margin-left: 8px;
 }
@@ -32,10 +37,6 @@ header, main, footer {
 .userView .background {
     width: 100%;
     height: 100%;
-}
-
-.email-domain::before {
-    content: '@';
 }
 
 .card ul li {

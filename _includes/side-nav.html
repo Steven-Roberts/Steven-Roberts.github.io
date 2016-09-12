@@ -4,7 +4,15 @@
             <img class="background" src="/img/user-background.jpg">
             <img class="circle" src="{{ site.github.owner_gravatar_url }}">
             <span class="name">{{ site.title }}</span>
-            <span class="email">{% include email.html %}</span>
+            <a {% include email.html %}>
+                <span class="email">
+                    {{ site.email.username }}<!--
+                        obfuscate the email from bots
+                    --><span>@</span><!--
+                        obfuscate the email from bots
+                    -->{{ site.email.domain }}
+                </span>
+            </a>
         </div>
     </li>
 

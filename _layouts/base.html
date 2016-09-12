@@ -28,6 +28,13 @@
 
 {% include footer.html %}
 
+<div id="message-box-container" class="fixed-action-btn">
+    <a id="message-button" class="btn-floating btn-large waves-effect waves-light"
+        {% include email.html %}>
+        <i class="material-icons">message</i>
+    </a>
+</div>
+
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"
         integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"
