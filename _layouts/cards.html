@@ -23,7 +23,7 @@ layout: base
                             {% endif %}
                         </span>
                         <p class="grey-text text-darken-1">
-                            {{ card.subtitle }}
+                            {{ card.subtitle | markdownify | remove: '<p>' | remove: '</p>' }}
                             {% if card.subtitle and card.date %}<br/>{% endif %}
                             {{ card.date }}
                         </p>
