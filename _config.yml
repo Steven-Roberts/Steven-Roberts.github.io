@@ -7,7 +7,7 @@ email:
 
 permalink: pretty
 
-gems:
+plugins:
     - jekyll-github-metadata
     - jekyll-sitemap
     - jekyll-seo-tag
