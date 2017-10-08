@@ -1,5 +1,6 @@
 {
     "name": "Steven Roberts",
+    "short_name": "Steven",
     "icons": [
         {
             "src": "/img/favicon/android-chrome-192x192.png",
@@ -13,6 +14,6 @@
         }
     ],
     "theme_color": "#ff9800",
-    "background_color": "#ff9800",
+    "background_color": "#ffffff",
     "display": "standalone"
 }
