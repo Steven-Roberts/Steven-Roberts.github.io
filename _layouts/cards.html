@@ -12,7 +12,7 @@ layout: base
                 <div class="card {% if page.orientation == "horizontal" %}horizontal{% else %}vertical{% endif %}">
                     {% if card.img %}
                         <div class="card-image {% if card.description %}waves-effect waves-block waves-light{% endif %}">
-                            <img class="{% if card.description %}activator{% endif %}" src="{{ card.img }}">
+                            <img alt="{{ card.title }}" class="{% if card.description %}activator{% endif %}" src="{{ card.img }}">
                         </div>
                     {% endif %}
                     <div class="card-content">
