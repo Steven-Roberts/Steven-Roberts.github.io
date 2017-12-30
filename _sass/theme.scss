@@ -1,0 +1,13 @@
+@import 'components/color-variables';
+$primary-color: color("orange", "base");
+$secondary-color: color("grey", "darken-2");
+$link-color: $primary-color;
+$button-floating-background: $primary-color;
+$footer-bg-color: $secondary-color;
+
+$h1-fontsize: 3rem;
+$h2-fontsize: 2.6rem;
+$h3-fontsize: 2.2rem;
+$h4-fontsize: 1.8rem;
+$h5-fontsize: 1.4rem;
+$h6-fontsize: 1rem;

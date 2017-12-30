@@ -1,6 +1,4 @@
 title: Steven Roberts
-repository: Steven-Roberts/Steven-Roberts.github.io
-destination: _gh_pages
 email:
     username: steven94
     domain: vt.edu
@@ -11,14 +9,11 @@ plugins:
     - jekyll-github-metadata
     - jekyll-sitemap
     - jekyll-seo-tag
-    - jemoji
 
 sass:
     style: compressed
-    sass_dir: ./_scss
 
 exclude:
     - Gemfile
     - LICENSE.md
     - README.md
-    - "*.xcf"

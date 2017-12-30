@@ -5,14 +5,8 @@ main {
     background: url('/img/index-background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-
     display: flex;
-    align-self: stretch;
     justify-content: center;
     align-items: center;
     min-height: 256px;
-}
-
-footer {
-    margin-top: 0 !important;
 }

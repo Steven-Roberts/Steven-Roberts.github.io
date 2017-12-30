@@ -4,13 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons"
-        rel="stylesheet" media="screen,projection">
-    <link type="text/css" href="/css/shared.css" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="/css/shared.css">
 
     {% for style in page.styles %}
-        <link type="text/css" href="{{ style }}" rel="stylesheet">
+        <link type="text/css" rel="stylesheet"
+            {% for attr in style %} {{ attr | first }}="{{ attr | last }}" {% endfor %}>
     {% endfor %}
 
     {% include favicon.html %}
@@ -28,21 +29,22 @@
 
 {% include footer.html %}
 
-<div id="message-box-container" class="fixed-action-btn">
-    <a id="message-button" class="btn-floating btn-large waves-effect waves-light"
+<div class="fixed-action-btn">
+    <a class="btn-floating btn-large waves-effect waves-light"
         {% include email.html %}>
         <i class="material-icons">message</i>
     </a>
 </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"
-    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"
-    integrity="sha256-uWtSXRErwH9kdJTIr1swfHFJn/d/WQ6s72gELOHXQGM=" crossorigin="anonymous"></script>
-<script type="text/javascript" src="/js/shared.js"></script>
+<script
+    src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.2/js/materialize.min.js"
+    integrity="sha384-80/32HnG+bn7irUZ9aPuosSbzNqR/f2ADi5G3pOKsCaW4BIoxzJDR7Q8HqfTK63E"
+    crossorigin="anonymous"></script>
+<script src="/js/shared.js"></script>
 
 {% for script in page.scripts %}
-    <script type="text/javascript" src="{{ script }}"></script>
+    <script {% for attr in script %} {{ attr | first }}="{{ attr | last }}" {% endfor %}>
+    </script>
 {% endfor %}
 
 </body>
