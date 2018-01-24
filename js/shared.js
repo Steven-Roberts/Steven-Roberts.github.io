@@ -1,5 +1,5 @@
-new M.Sidenav(document.querySelector('.sidenav'));
+M.Sidenav.init(document.querySelector('.sidenav'));
 
 document.querySelectorAll('.collapsible').forEach((e) => {
-    new M.Collapsible(e);
+    M.Collapsible.init(e);
 });
