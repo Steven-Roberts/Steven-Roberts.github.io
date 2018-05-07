@@ -193,6 +193,12 @@ textarea.materialize-textarea {
     }
   }
 
+  & > input[type=date]:not(.browser-default) + label,
+  & > input[type=time]:not(.browser-default) + label {
+    transform: translateY(-14px) scale(.8);
+    transform-origin: 0 0;
+  }
+
   .helper-text {
     &::after {
       opacity: 1;
@@ -212,8 +218,9 @@ textarea.materialize-textarea {
   .prefix {
     position: absolute;
     width: $input-height;
-    font-size: 2rem;
+    font-size: $input-icon-size;
     transition: color .2s;
+    top: ($input-height - $input-icon-size) / 2;
 
     &.active { color: $input-focus-color; }
   }
@@ -222,6 +229,7 @@ textarea.materialize-textarea {
   .prefix ~ textarea,
   .prefix ~ label,
   .prefix ~ .validate ~ label,
+  .prefix ~ .helper-text,
   .prefix ~ .autocomplete-content {
     margin-left: 3rem;
     width: 92%;
@@ -251,6 +259,7 @@ textarea.materialize-textarea {
 .input-field input[type=search] {
   display: block;
   line-height: inherit;
+  transition: .3s background-color;
 
   .nav-wrapper & {
     height: inherit;
@@ -285,7 +294,7 @@ textarea.materialize-textarea {
     right: 1rem;
     color: transparent;
     cursor: pointer;
-    font-size: 2rem;
+    font-size: $input-icon-size;
     transition: .3s color;
   }
 }
@@ -326,12 +335,6 @@ textarea {
 
 /* Autocomplete */
 .autocomplete-content {
-  margin-top: -1 * $input-margin-bottom;
-  margin-bottom: $input-margin-bottom;
-  display: block;
-  opacity: 1;
-  position: static;
-
   li {
     .highlight { color: #444; }
 
