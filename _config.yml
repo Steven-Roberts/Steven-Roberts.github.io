@@ -2,10 +2,10 @@ title: Steven Roberts
 email: steven94@vt.edu
 
 extra-menu-items:
-    - title: Résumé
+    - title: Curriculum Vitae
       priority: 50
       icon: insert_drive_file
-      url: /assets/doc/resume.pdf
+      url: /assets/doc/cv.pdf
       badge: New
 
 links:
