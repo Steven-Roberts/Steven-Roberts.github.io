@@ -1,7 +1,17 @@
 title: Steven Roberts
-email:
-    username: steven94
-    domain: vt.edu
+email: steven94@vt.edu
+
+extra-menu-items:
+    - title: Résumé
+      priority: 50
+      icon: insert_drive_file
+      url: /assets/doc/resume.pdf
+      badge: New
+
+links:
+    Github: https://github.com/Steven-Roberts
+    Google Scholar: https://scholar.google.com/citations?user=C4Y4pMIAAAAJ
+    Stack Overflow: https://stackoverflow.com/u/2605245s
 
 permalink: pretty
 
@@ -12,8 +22,3 @@ plugins:
 
 sass:
     style: compressed
-
-exclude:
-    - Gemfile
-    - LICENSE.md
-    - README.md

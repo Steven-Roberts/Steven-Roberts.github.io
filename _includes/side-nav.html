@@ -2,33 +2,32 @@
     <li>
         <div class="user-view">
             <div class="background">
-                <img src="/img/user-background.jpg" alt="User background">
+                <img src="/assets/img/user-background.jpg" alt="User background">
             </div>
             <img class="circle" src="{{ site.github.owner_gravatar_url }}" alt="Profile picture">
             <span class="name white-text">{{ site.title }}</span>
-            <a {% include email.html %}>
-                <span class="email">
-                    {{ site.email.username }}<!--
-                        obfuscate the email from bots
-                    --><span>@</span><!--
-                        obfuscate the email from bots
-                    -->{{ site.email.domain }}
-                </span>
+            <span class="email">
+            <a href="mailto:{{ site.email }}">
+                {{ site.email }}
             </a>
+            </span>
         </div>
     </li>
 
-  {% assign sortedPages = site.pages | sort: 'weight' | reverse %}
-  {% for menuPage in sortedPages %}
-      {% if menuPage.weight %}
-          <li {% if page.url == menuPage.url %}class="active"{% endif %}>
-              <a href="{{ menuPage.url }}">
-                  {% if menuPage.icon %}
-                      <i class="material-icons">{{ menuPage.icon }}</i>
-                  {% endif %}
-                  {{ menuPage.title }}
-              </a>
-          </li>
-      {% endif %}
-  {% endfor %}
+    {% assign sortedPages = site.pages | concat: site.extra-menu-items | sort: 'priority' | reverse %}
+    {% for menuPage in sortedPages %}
+        {% if menuPage.priority %}
+            <li {% if page.url == menuPage.url %}class="active"{% endif %}>
+                <a href="{{ menuPage.url }}">
+                    <i class="material-icons">{{ menuPage.icon }}</i>
+                    {{ menuPage.title }}
+                    {% if menuPage.badge %}
+                        <span class="badge new" data-badge-caption="">
+                            {{ menuPage.badge }}
+                        </span>
+                    {% endif %}
+                </a>
+            </li>
+        {% endif %}
+    {% endfor %}
 </ul>

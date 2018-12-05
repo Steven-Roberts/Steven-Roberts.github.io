@@ -1,9 +1,8 @@
 ---
-layout: cards
+layout: article
 title: Awards and Recognitions
-weight: 50
+priority: 60
 icon: star
-orientation: horizontal
 cards:
     - title: Virginia Space Grant Consortium (VSGC) Graduate Research STEM Fellowship
       date: Fall 2018
@@ -17,10 +16,10 @@ cards:
     - title: Third Place at Pivot Point Hackathon
       date: Fall 2016
       subtitle: Created [this](https://github.com/PivotPoint16/Team-Supreme) site to fight homelessness
-      img: /img/awards-and-recognitions/pivot-point.jpg
+      img: /assets/img/awards-and-recognitions/pivot-point.jpg
     - title: Phi Beta Kappa Member
       date: Inducted Spring 2016
-      img: /img/awards-and-recognitions/pbk.jpg
+      img: /assets/img/awards-and-recognitions/pbk.jpg
     - title: David Heilman Memorial Award
       subtitle: Awarded to a VT CS undergraduate for outstanding research
       date: Spring 2016
@@ -36,8 +35,10 @@ cards:
     - title: CRA Outstanding Undergraduate Research Award Nominee
       subtitle: Nominated by VT CS department
       date: 2015
-      img: /img/awards-and-recognitions/cra.jpg
+      img: /assets/img/awards-and-recognitions/cra.jpg
     - title: VT CS Sophomore Scholar Award
       subtitle: Awarded to sophomores with highest GPAs
       date: Spring 2014
 ---
+
+{% include deck.html horizontal=true cards=page.cards %}
