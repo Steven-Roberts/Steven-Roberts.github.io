@@ -1,0 +1,20 @@
+<ol reversed>
+    {% for conference in include.conferences %}
+    <li>
+        <i>
+            {{ conference.title }}
+        </i>
+        <span class="right">
+            {{ conference.date }}
+        </span>
+        <br/>
+        {{ conference.authors }}
+        <br/>
+        {{ conference.presentation }}
+        <br/>
+        <a href="{{ conference.slides }}">
+            Download the slides
+        </a>
+    </li>
+    {% endfor %}
+</ol>
