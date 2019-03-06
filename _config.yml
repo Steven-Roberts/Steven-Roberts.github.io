@@ -6,7 +6,6 @@ extra-menu-items:
       priority: 50
       icon: insert_drive_file
       url: /assets/doc/cv.pdf
-      badge: New
 
 links:
     Github: https://github.com/Steven-Roberts

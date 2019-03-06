@@ -54,8 +54,9 @@ cards:
       date: 2015 - Present
       img: /assets/img/job-experience/web-dev.jpg
       description: |
+        * Redesigned website for [Computational Science Laboratory](http://csl.cs.vt.edu)
         * Created [this site](http://famg.mse.vt.edu/) for a professor in Virginia Tech Materials Science and Engineering department
-        * Created [this](https://chrome.google.com/webstore/detail/word-counter-plus/fpjegfbcdijjfkceenlfoehpcakfgldj) Chrome extension for performing word counts.
+        * Created [Word Counter Plus](https://chrome.google.com/webstore/detail/word-counter-plus/fpjegfbcdijjfkceenlfoehpcakfgldj), a Chrome extension for performing word counts.
 ---
 
 {% include deck.html cols="m6" cards=page.cards %}
