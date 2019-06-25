@@ -13,7 +13,7 @@ cards:
 
     - title: Lawrence Livermore National Lab
       subtitle: Intern
-      date: Summer 2018
+      date: Summer 2018 - 2019
       img: /assets/img/job-experience/llnl.jpg
       description: |
         * Implemented and optimized finite element operations for GPUs using CUDA
@@ -32,7 +32,7 @@ cards:
 
     - title: Insurance Institute for Highway Safety
       subtitle: Intern Software Developer
-      date: Summers 2013 - 2016
+      date: Summer 2013 - 2016
       img: /assets/img/job-experience/iihs.jpg
       description: |
         * Worked on C# applications for managing vehicle records stored in SQL databases

@@ -13,15 +13,14 @@ categories:
         MPI: 40
     - title: MATLAB
       variants:
-        MATLAB 2018b: 80
+        MATLAB 2019a: 80
     - title: Mathematica
       variants:
-        Mathematica 11: 75
+        Mathematica 12: 75
     - title: JavaScript
       variants:
-        ES2018: 90
+        ES2018: 85
         Node.js: 80
-        Gulp: 75
     - title: HTML
       variants:
         HTML 5: 85
@@ -36,8 +35,7 @@ categories:
         Python 3: 40
     - title: Java
       variants:
-        Java 8: 60
-        Android: 25
+        Java 12: 50
     - title: C#
       variants:
         .NET Core: 70
@@ -50,7 +48,6 @@ categories:
       variants:
         Git: 75
         SVN: 60
-        Team Foundation Version Control: 25
 ---
 
 <p class="grey-text">Click skills to see more details</p>

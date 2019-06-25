@@ -5,7 +5,7 @@ priority: 60
 icon: star
 cards:
     - title: Virginia Space Grant Consortium (VSGC) Graduate Research STEM Fellowship
-      date: Fall 2018
+      date: Fall 2018 - Spring 2020
       subtitle: Awarded for research aligned with NASA's mission
     - title: Davenport Fellowship
       date: Fall 2017
