@@ -9,21 +9,40 @@ cards:
       date: Spring 2015 - Present
       img: /assets/img/job-experience/research.jpg
       description: |
-        * Deriving, implementing, and testing multirate time integrators for numerically solving differential equations
+        * Designing, analyzing, and testing new multirate time integrators for numerically solving multiscale differential equations
+        * Developing new implicit-explicit (IMEX) methods for suitable for stiff problems and differential algebraic equations.
+        * Creating a new framework for multimethods based on partitioned general linear methods
+
+    - title: Graduate Teaching Assistant
+      subtitle: "CS 4234: Parallel Computation"
+      date: Fall 2019
+      img: /assets/img/job-experience/teaching-assistant.jpg
+      description: |
+        * Held weekly office hour to help students on assignments
+        * Taught eight of the classes
 
     - title: Lawrence Livermore National Lab
       subtitle: Intern
-      date: Summer 2018 - 2019
-      img: /assets/img/job-experience/llnl.jpg
+      date: Summer 2019
+      img: /assets/img/job-experience/LLNL-2019.jpg
+      description: |
+        * Developed new implicit multirate Runge--Kutta methods for solving stiff, multiscale systems of ordinary differential equations
+        * Compared and implemented variants of multirate backward differentiation formula methods
+        * View my [final poster presentation](/assets/doc/LLNL-poster-2019.pdf)
+
+    - title: Lawrence Livermore National Lab
+      subtitle: Intern
+      date: Summer 2018
+      img: /assets/img/job-experience/LLNL-2018.jpg
       description: |
         * Implemented and optimized finite element operations for GPUs using CUDA
         * Contributed to the open-source project [libCEED](https://github.com/CEED/libCEED)
-        * View my [final poster presentation](/assets/doc/llnl-poster.pdf)
+        * View my [final poster presentation](/assets/doc/LLNL-poster-2018.pdf)
 
     - title: NASA Glenn Research Center
       subtitle: Intern
       date: Summer 2017
-      img: /assets/img/job-experience/nasa.jpg
+      img: /assets/img/job-experience/NASA.jpg
       description: |
         * Created 1D hybrid direct kinetic simulation of a Hall thruster
         * Developed software in C++ from the ground up
@@ -33,21 +52,13 @@ cards:
     - title: Insurance Institute for Highway Safety
       subtitle: Intern Software Developer
       date: Summer 2013 - 2016
-      img: /assets/img/job-experience/iihs.jpg
+      img: /assets/img/job-experience/IIHS.jpg
       description: |
         * Worked on C# applications for managing vehicle records stored in SQL databases
         * Redesigned and updated mobile website
         * Set up OAUTH server
         * Worked with several frontend web frameworks
         * Gained first-hand experience in software development life cycle
-
-    - title: Undergraduate Teaching Assistant
-      subtitle: "CS 2114: Software Design & Data Structures"
-      date: Fall 2014
-      img: /assets/img/job-experience/teaching-assistant.jpg
-      description: |
-        * Held weekly office hours to assist students with homeworks and projects
-        * Helped supervise two labs of approximately 30 students each
 
     - title: Web Developer
       subtitle: Freelancer

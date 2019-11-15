@@ -9,17 +9,17 @@ categories:
         C: 65
         C++: 65
         CUDA: 50
-        OpenMP: 40
-        MPI: 40
+        OpenMP: 50
+        MPI: 50
     - title: MATLAB
       variants:
-        MATLAB 2019a: 80
+        MATLAB 2019b: 80
     - title: Mathematica
       variants:
         Mathematica 12: 75
     - title: JavaScript
       variants:
-        ES2018: 85
+        ES2019: 85
         Node.js: 80
     - title: HTML
       variants:
@@ -38,8 +38,8 @@ categories:
         Java 12: 50
     - title: C#
       variants:
-        .NET Core: 70
-        ASP.NET Core: 40
+        .NET Core: 60
+        ASP.NET Core: 30
     - title: Operating Systems
       variants:
         Windows: 80

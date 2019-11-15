@@ -6,12 +6,13 @@ extra-menu-items:
       priority: 50
       icon: insert_drive_file
       url: /assets/doc/cv.pdf
-      badge: Updated
 
 links:
     Github: https://github.com/Steven-Roberts
     Google Scholar: https://scholar.google.com/citations?user=C4Y4pMIAAAAJ
-    Stack Overflow: https://stackoverflow.com/u/2605245s
+    ORCID: https://orcid.org/0000-0002-7225-2501
+    Stack Overflow: https://stackoverflow.com/users/2605245
+    Facebook: https://www.facebook.com/steven.byram.roberts
 
 permalink: pretty
 
