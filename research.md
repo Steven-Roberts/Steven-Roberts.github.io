@@ -8,21 +8,21 @@ conferences:
       authors: Steven Roberts, John Loffeld, Arash Sarshar, Adrian Sandu, and Carol Woodward
       presentation: International Conference on Scientific Computation and Differential Equations
       date: July 23, 2019
-      slides: /assets/doc/presentations/SciCADE_implicit_MrGARK.pdf
+      slides: /assets/doc/presentations/SciCADE-implicit-MrGARK.pdf
       paper: https://arxiv.org/pdf/1910.14079.pdf
 
     - title: Practical Multirate Time Integration methods
       authors: Steven Roberts and Adrian Sandu
       presentation: Virginia Space Grant Consortium Student Research Conference
       date: April 8, 2019
-      slides: /assets/doc/presentations/VSGC_practical_multirate.pdf
-      paper: /assets/doc/papers/VSGC_report.pdf
+      slides: /assets/doc/presentations/VSGC-practical-multirate.pdf
+      paper: /assets/doc/papers/VSGC-report.pdf
 
     - title: Implicit Multirate Generalized Additive Runge-Kutta Methods
       authors: Steven Roberts, John Loffeld, Arash Sarshar, Adrian Sandu, and Carol Woodward
       presentation: SIAM Conference on Computational Science and Engineering
       date: March 1, 2019
-      slides: /assets/doc/presentations/CSE_implicit_MrGARK.pdf
+      slides: /assets/doc/presentations/CSE-implicit-MrGARK.pdf
       paper: https://arxiv.org/pdf/1910.14079.pdf
 ---
 
