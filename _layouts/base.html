@@ -2,47 +2,44 @@
 <html lang="en-US">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link type="text/css" rel="stylesheet" href="/assets/css/shared.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="/assets/css/shared.css">
 
-    {% for style in page.styles %}
-        <link type="text/css" rel="stylesheet"
-            {% for attr in style %} {{ attr | first }}="{{ attr | last }}" {% endfor %}>
-    {% endfor %}
+  {% for style in page.styles %}
+  <link type="text/css" rel="stylesheet" {% for attr in style %} {{ attr | first }}="{{ attr | last }}" {% endfor %}>
+  {% endfor %}
 
-    {% include analytics.html %}
-    {% include favicon.html %}
+  {% include analytics.html %}
+  {% include favicon.html %}
 
-    {% seo %}
+  {% seo %}
 </head>
 
 <body>
 
-{% include header.html %}
+  {% include header.html %}
 
-<main>
+  <main>
     {{ content }}
-</main>
+  </main>
 
-{% include footer.html %}
+  {% include footer.html %}
 
-<div class="fixed-action-btn">
+  <div class="fixed-action-btn">
     <a class="btn-floating btn-large waves-effect waves-light" href="mailto:{{ site.email }}">
-        <i class="material-icons">message</i>
+      <i class="material-icons">message</i>
     </a>
-</div>
+  </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"
-    integrity="sha256-U/cHDMTIHCeMcvehBv1xQ052bPSbJtbuiw4QA9cTKz0="
-    crossorigin="anonymous"></script>
-<script src="/assets/js/shared.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js" integrity="sha256-U/cHDMTIHCeMcvehBv1xQ052bPSbJtbuiw4QA9cTKz0=" crossorigin="anonymous"></script>
+  <script src="/assets/js/shared.js"></script>
 
-{% for script in page.scripts %}
-    <script {% for attr in script %} {{ attr | first }}="{{ attr | last }}" {% endfor %}>
-    </script>
-{% endfor %}
+  {% for script in page.scripts %}
+  <script {% for attr in script %} {{ attr | first }}="{{ attr | last }}" {% endfor %}>
+  </script>
+  {% endfor %}
 
 </body>
 
