@@ -11,10 +11,9 @@
   <link type="text/css" rel="stylesheet" {% for attr in style %} {{ attr | first }}="{{ attr | last }}" {% endfor %}>
   {% endfor %}
 
-  {% include analytics.html %}
   {% include favicon.html %}
-
   {% seo %}
+  {% include analytics.html %}
 </head>
 
 <body>
