@@ -1,0 +1,28 @@
+<ol reversed class="browser-default">
+  {% for presentations in include.presentations %}
+  <li>
+    <p>
+      <i>
+        {{ presentations.title }}
+      </i>
+      <span class="right">
+        {{ presentations.date }}
+      </span>
+      <br />
+      {{ presentations.authors }}
+      <br />
+      {{ presentations.venue }}
+      <br />
+      <a href="{{ presentations.slides }}">
+        Download the slides
+      </a>
+
+      {% if presentations.paper %}
+      | <a href="{{ presentations.paper }}">
+        Download the paper
+      </a>
+      {% endif %}
+    </p>
+  </li>
+  {% endfor %}
+</ol>
