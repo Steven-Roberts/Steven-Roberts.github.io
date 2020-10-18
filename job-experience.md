@@ -28,7 +28,7 @@ cards:
     description: |
       * Developed new implicit multirate Runge--Kutta methods for solving stiff, multiscale systems of ordinary differential equations
       * Compared and implemented variants of multirate backward differentiation formula methods
-      * View my [final poster presentation](/assets/doc/LLNL-poster-2019.pdf)
+      * View my [final poster presentation](/posters/LLNL-poster-2019.pdf)
 
   - title: Lawrence Livermore National Lab
     subtitle: Intern
@@ -38,7 +38,7 @@ cards:
       * Implemented and optimized finite element operators for GPUs using CUDA
       * Achieved 10 to 100 times speedup over other CPU and GPU implementations
       * Contributed to the open-source project [libCEED](https://github.com/CEED/libCEED)
-      * View my [final poster presentation](/assets/doc/LLNL-poster-2018.pdf)
+      * View my [final poster presentation](/posters/LLNL-poster-2018.pdf)
 
   - title: NASA Glenn Research Center
     subtitle: Intern
