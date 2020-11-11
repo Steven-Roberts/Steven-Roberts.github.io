@@ -33,8 +33,7 @@ presentations:
     paper: https://arxiv.org/pdf/1910.14079.pdf
 ---
 
-Currently, I am a Ph.D. student at Virginia Tech studying Computer Science.  I am a member of the [Computational Science Laboratory](http://csl.cs.vt.edu/), which is led by [Dr. Adrian Sandu](http://people.cs.vt.edu/asandu/).  My research interests include:
-
+Currently, I am member of the [Computational Science Laboratory](http://csl.cs.vt.edu/) at Virginia Tech, which is led by [Dr. Adrian Sandu](http://people.cs.vt.edu/asandu/).  My research interests include:
 
 <ul class="browser-default">
   <li>Ordinary differential equations and differential algebraic equations</li>
