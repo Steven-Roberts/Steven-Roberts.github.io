@@ -9,7 +9,7 @@ presentations:
     venue: Sayas Numerics Seminar
     date: October 20, 2020
     slides: /presentations/Sayas-parallel-IMEX-GLM.pdf
-    paper: https://arxiv.org/pdf/2002.00868.pdf
+    paper: https://doi.org/10.1007/s42967-020-00083-5
 
   - title: Implicit Multirate GARK Methods
     authors: Steven Roberts, John Loffeld, Arash Sarshar, Adrian Sandu, and Carol Woodward
