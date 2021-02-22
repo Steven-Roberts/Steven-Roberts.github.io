@@ -13,14 +13,14 @@
       <br />
       {{ presentations.venue }}
       <br />
-      <a href="{{ presentations.slides }}">
-        Download the slides
-      </a>
+
+      {% if presentations.slides %}
+      <a href="{{ presentations.slides }}">Download the slides</a>
+      {% endif %}
 
       {% if presentations.paper %}
-      | <a href="{{ presentations.paper }}">
-        Download the paper
-      </a>
+      {% if presentations.slides %} | {% endif %}
+      <a href="{{ presentations.paper }}">Download the paper</a>
       {% endif %}
     </p>
   </li>

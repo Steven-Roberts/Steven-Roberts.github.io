@@ -4,6 +4,12 @@ title: Research
 priority: 90
 icon: school
 presentations:
+  - title: A New Multirate Time-Stepping Strategy for ODE Systems Equipped with a Surrogate Model
+    authors: Steven Roberts, Andrey A Popov, Arash Sarshar, Adrian Sandu
+    venue: SIAM Conference on Computational Science and Engineering
+    date: March 5, 2021
+    paper: https://arxiv.org/abs/2011.03688
+
   - title: Parallel implicit-explicit general linear methods
     authors: Steven Roberts, Arash Sarshar, and Adrian Sandu
     venue: Sayas Numerics Seminar
@@ -16,7 +22,7 @@ presentations:
     venue: International Conference on Scientific Computation and Differential Equations
     date: July 23, 2019
     slides: /presentations/SciCADE-implicit-MrGARK.pdf
-    paper: https://arxiv.org/pdf/1910.14079.pdf
+    paper: https://doi.org/10.1007/s10915-020-01400-z
 
   - title: Practical Multirate Time Integration Methods
     authors: Steven Roberts and Adrian Sandu
@@ -30,7 +36,7 @@ presentations:
     venue: SIAM Conference on Computational Science and Engineering
     date: March 1, 2019
     slides: /presentations/CSE-implicit-MrGARK.pdf
-    paper: https://arxiv.org/pdf/1910.14079.pdf
+    paper: https://doi.org/10.1007/s10915-020-01400-z
 ---
 
 Currently, I am member of the [Computational Science Laboratory](http://csl.cs.vt.edu/) at Virginia Tech, which is led by [Dr. Adrian Sandu](http://people.cs.vt.edu/asandu/).  My research interests include:
