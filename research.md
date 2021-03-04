@@ -8,6 +8,7 @@ presentations:
     authors: Steven Roberts, Andrey A Popov, Arash Sarshar, Adrian Sandu
     venue: SIAM Conference on Computational Science and Engineering
     date: March 5, 2021
+    slides: /presentations/CSE-surrogate.pdf
     paper: https://arxiv.org/abs/2011.03688
 
   - title: Parallel implicit-explicit general linear methods
