@@ -4,33 +4,43 @@ title: Job Experience
 priority: 70
 icon: work
 cards:
-  - title: Research
-    subtitle: Undergraduate and Graduate
-    date: Spring 2015–Present
+  - title: Lawrence Livermore National Laboratory
+    subtitle: Sydney Fernbach Postdoctoral Fellow
+    date: Fall 2021–Present
+    img: /assets/img/job-experience/LLNL-2021.jpg
+    description: |
+      * Developing techniques to accelerate time integration methods with machine learning and surrogate models.
+      * Investigating feasibility of implementing time integration methods on machine learning hardware accelerators such as the Cerebras CS-2 and Graphcore IPU.
+      * Proposing remedies to the order reduction phenomenon which mars many Runge–Kutta methods
+      * Enhancing the time-stepping capabilities of the BISICLES ice sheet model
+      * Contributing to the SUite of Nonlinear and DIfferential/ALgebraic equation Solvers (SUNDIALS)
+
+  - title: Virginia Tech Computational Science Laboratory
+    subtitle: Research Assistant
+    date: Spring 2015–Fall 2021
     img: /assets/img/job-experience/research.jpg
     description: |
-      * Designing, analyzing, and testing new multirate time integrators for numerically solving multiscale differential equations
-      * Developing new implicit-explicit (IMEX) methods suitable for stiff problems and differential algebraic equations.
-      * Creating a new framework for multimethods based on partitioned general linear methods
+      * Designed, analyzed, and tested new multirate time integrators for numerically solving multiscale differential equations
+      * Developed new implicit-explicit (IMEX) methods suitable for stiff problems and differential algebraic equations.
 
-  - title: Graduate Teaching Assistant
-    subtitle: "CS 4234/5234: Parallel Computation"
+  - title: "CS 4234/5234: Parallel Computation"
+    subtitle: Graduate Teaching Assistant
     date: Fall 2019–Spring 2020
     img: /assets/img/job-experience/teaching-assistant.jpg
     description: |
       * Held weekly office hours to help students with assignments
       * Taught ten of the classes on topics including OpenMP, parallel performance metrics, and GPU computing with CUDA
 
-  - title: Lawrence Livermore National Lab
+  - title: Lawrence Livermore National Laboratory
     subtitle: Intern
     date: Summer 2019
     img: /assets/img/job-experience/LLNL-2019.jpg
     description: |
-      * Developed new implicit multirate Runge--Kutta methods for solving stiff, multiscale systems of ordinary differential equations
+      * Developed new implicit multirate Runge–Kutta methods for solving stiff, multiscale systems of ordinary differential equations
       * Compared and implemented variants of multirate backward differentiation formula methods
       * View my [final poster presentation](/posters/LLNL-poster-2019.pdf)
 
-  - title: Lawrence Livermore National Lab
+  - title: Lawrence Livermore National Laboratory
     subtitle: Intern
     date: Summer 2018
     img: /assets/img/job-experience/LLNL-2018.jpg
@@ -66,8 +76,7 @@ cards:
     date: 2015–Present
     img: /assets/img/job-experience/web-dev.jpg
     description: |
-      * Developing and maintaining the website for the [Computational Science Laboratory](http://csl.cs.vt.edu)
-      * Created [this site](http://famg.mse.vt.edu/) for a professor in Virginia Tech Materials Science and Engineering department
+      * Developed the website for the [Computational Science Laboratory](https://csl.cs.vt.edu)
       * Created [Word Counter Plus](https://chrome.google.com/webstore/detail/word-counter-plus/fpjegfbcdijjfkceenlfoehpcakfgldj), a Chrome extension for performing word counts.
 ---
 

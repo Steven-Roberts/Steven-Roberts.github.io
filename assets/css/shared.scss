@@ -4,6 +4,7 @@
 @import "theme";
 @import "materialize";
 
+// Ensure the content fills vertically
 body {
   display: flex;
   min-height: 100vh;
@@ -14,6 +15,7 @@ main {
   flex: 1 0 auto;
 }
 
+// Fixes for the sidenav
 header, main, footer {
   padding-left: 300px;
 
@@ -26,15 +28,24 @@ header {
   position: relative;
 }
 
+// Scale the user background
 .user-view .background img {
   width: 100%;
   height: 100%;
 }
 
+// Add spacing between card list items
 .card ul li {
   margin-bottom: 1em;
 }
 
+// For the footer links
 .two-column {
   columns: 2;
+}
+
+// Maintain vertical alignment with cards
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
 }

@@ -1,5 +1,5 @@
 title: Steven Roberts
-email: steven94@vt.edu
+email: roberts115@llnl.gov
 author: Steven Roberts
 description: The personal website of Steven Roberts where you can find my publications, presentations, CV, and contact information
 
@@ -12,9 +12,10 @@ extra-menu-items:
 links:
   Github: https://github.com/Steven-Roberts
   Google Scholar: https://scholar.google.com/citations?user=C4Y4pMIAAAAJ
+  LLNL: https://people.llnl.gov/roberts115
   ORCID: https://orcid.org/0000-0002-7225-2501
   Scopus: https://www.scopus.com/authid/detail.uri?authorId=57208689731
-  Stack Overflow: https://stackoverflow.com/users/2605245
+  Stack Exchange: https://stackexchange.com/users/3075905
   Facebook: https://www.facebook.com/steven.byram.roberts
 
 permalink: pretty

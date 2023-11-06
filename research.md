@@ -19,8 +19,12 @@ My research interests include:
 
 You can find my publications on [Google Scholar]({{ site.links["Google Scholar"] }}).
 
-## Ph.D. Research
+## Postdoc
 
-I received my Ph.D. in Computer Science and Applications from Virginia Tech in August 2021.  I was a member of the [Computational Science Laboratory](https://csl.cs.vt.edu) which is led by [Dr. Adrian Sandu](http://people.cs.vt.edu/asandu).
+I am the 2021 recipient of the [Sydney Fernbach Postdoctoral Fellowship in the Computing Sciences](https://computing.llnl.gov/about/people-highlights/steven-roberts) and a member of the [Center for Applied Scientific Computing](https://computing.llnl.gov/casc) at [Lawrence Livermore National Laboratory](https://www.llnl.gov). My mentor is [Dr. Carol S. Woodward](https://people.llnl.gov/woodward6).
 
-[Download my dissertation](http://hdl.handle.net/10919/104872)
+## Ph.D.
+
+I received my Ph.D. in Computer Science and Applications from Virginia Tech in August 2021.  I was a member of the [Computational Science Laboratory](https://csl.cs.vt.edu) which is led by [Dr. Adrian Sandu](https://people.cs.vt.edu/asandu).
+
+[View my dissertation](https://hdl.handle.net/10919/104872)
