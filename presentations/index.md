@@ -4,6 +4,18 @@ title: Presentations
 priority: 80
 icon: slideshow
 presentations:
+  - title: The Order of Runge–Kutta Methods in Theory and Practice
+    authors: Steven Roberts, David Shirokoff, Abhijit Biswas, David Ketcheson, Benjamin Seibold
+    venue: Temple University Applied Mathematics and Scientific Computing Seminar
+    date: December 6, 2023
+    slides: /presentations/Temple-2023-Order-of-RK.pdf
+
+  - title: The Order of Runge–Kutta Methods in Theory and Practice
+    authors: Steven Roberts, David Shirokoff, Abhijit Biswas, David Ketcheson, Benjamin Seibold
+    venue: New Jersey Institute of Technology Department of Mathematical Sciences Fluid Mechanics and Waves Seminar
+    date: December 4, 2023
+    slides: /presentations/NJIT-2023-Order-of-RK.pdf
+
   - title: Improved Time-Stepping for the BISICLES Ice-Sheet Model
     authors: Steven Roberts, Daniel Martin, Hans Johansen, David Gardner, Carol Woodward
     venue: FASTMath Seminar
